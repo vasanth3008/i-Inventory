@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		540BEABA18B79F2C002CEE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEAB918B79F2C002CEE46 /* Foundation.framework */; };
+		540BEABC18B79F2C002CEE46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEABB18B79F2C002CEE46 /* CoreGraphics.framework */; };
+		540BEABE18B79F2C002CEE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEABD18B79F2C002CEE46 /* UIKit.framework */; };
+		540BEAC418B79F2C002CEE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540BEAC218B79F2C002CEE46 /* InfoPlist.strings */; };
+		540BEAC618B79F2C002CEE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAC518B79F2C002CEE46 /* main.m */; };
+		540BEACA18B79F2C002CEE46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAC918B79F2C002CEE46 /* AppDelegate.m */; };
+		540BEACD18B79F2C002CEE46 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BEACB18B79F2C002CEE46 /* Main_iPhone.storyboard */; };
+		540BEAD018B79F2C002CEE46 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 540BEACE18B79F2C002CEE46 /* Main_iPad.storyboard */; };
+		540BEAD318B79F2C002CEE46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAD218B79F2C002CEE46 /* ViewController.m */; };
+		540BEAD518B79F2C002CEE46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 540BEAD418B79F2C002CEE46 /* Images.xcassets */; };
+		540BEADC18B79F2C002CEE46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEADB18B79F2C002CEE46 /* XCTest.framework */; };
+		540BEADD18B79F2C002CEE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEAB918B79F2C002CEE46 /* Foundation.framework */; };
+		540BEADE18B79F2C002CEE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540BEABD18B79F2C002CEE46 /* UIKit.framework */; };
+		540BEAE618B79F2C002CEE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 540BEAE418B79F2C002CEE46 /* InfoPlist.strings */; };
+		540BEAE818B79F2C002CEE46 /* iInventoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAE718B79F2C002CEE46 /* iInventoryTests.m */; };
+		540BEAF418B79F74002CEE46 /* bottle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 540BEAF118B79F74002CEE46 /* bottle.jpg */; };
+		540BEAF518B79F74002CEE46 /* menu-background.png in Resources */ = {isa = PBXBuildFile; fileRef = 540BEAF218B79F74002CEE46 /* menu-background.png */; };
+		540BEAF618B79F74002CEE46 /* menu-background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 540BEAF318B79F74002CEE46 /* menu-background@2x.png */; };
+		540BEB0F18B79F85002CEE46 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAF818B79F85002CEE46 /* RootViewController.m */; };
+		540BEB1018B79F85002CEE46 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAFA18B79F85002CEE46 /* HomeViewController.m */; };
+		540BEB1118B79F85002CEE46 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAFC18B79F85002CEE46 /* MenuViewController.m */; };
+		540BEB1218B79F85002CEE46 /* InventoryNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEAFE18B79F85002CEE46 /* InventoryNavigationController.m */; };
+		540BEB1618B79F85002CEE46 /* Cellar1Table.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB0618B79F85002CEE46 /* Cellar1Table.m */; };
+		540BEB1718B79F85002CEE46 /* MyCellarDetail1.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB0818B79F85002CEE46 /* MyCellarDetail1.m */; };
+		540BEB1818B79F85002CEE46 /* MyCellarAdd1.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB0A18B79F85002CEE46 /* MyCellarAdd1.m */; };
+		540BEB1918B79F85002CEE46 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB0C18B79F85002CEE46 /* TPKeyboardAvoidingScrollView.m */; };
+		540BEB1A18B79F85002CEE46 /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 540BEB0D18B79F85002CEE46 /* Data.plist */; };
+		540BEB1B18B79F85002CEE46 /* Data1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 540BEB0E18B79F85002CEE46 /* Data1.plist */; };
+		540BEB2918B79F9F002CEE46 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB1E18B79F9F002CEE46 /* RECommonFunctions.m */; };
+		540BEB2A18B79F9F002CEE46 /* REFrostedContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB2018B79F9F002CEE46 /* REFrostedContainerViewController.m */; };
+		540BEB2B18B79F9F002CEE46 /* REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB2218B79F9F002CEE46 /* REFrostedViewController.m */; };
+		540BEB2C18B79F9F002CEE46 /* UIImage+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB2418B79F9F002CEE46 /* UIImage+REFrostedViewController.m */; };
+		540BEB2D18B79F9F002CEE46 /* UIView+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB2618B79F9F002CEE46 /* UIView+REFrostedViewController.m */; };
+		540BEB2E18B79F9F002CEE46 /* UIViewController+REFrostedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 540BEB2818B79F9F002CEE46 /* UIViewController+REFrostedViewController.m */; };
+		542B75EF18B7A48E00B6FA25 /* MyCellarTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B75EA18B7A48E00B6FA25 /* MyCellarTable.m */; };
+		542B75F018B7A48E00B6FA25 /* MyCellarDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B75EC18B7A48E00B6FA25 /* MyCellarDetail.m */; };
+		542B75F118B7A48E00B6FA25 /* MyCellarAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B75EE18B7A48E00B6FA25 /* MyCellarAdd.m */; };
+		542B75F418B7A63A00B6FA25 /* PrintingExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 542B75F318B7A63A00B6FA25 /* PrintingExampleViewController.m */; };
+		542B75F618B7A64200B6FA25 /* sampleData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 542B75F518B7A64200B6FA25 /* sampleData.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		540BEADF18B79F2C002CEE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 540BEAAE18B79F2C002CEE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 540BEAB518B79F2C002CEE46;
+			remoteInfo = iInventory;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		540BEAB618B79F2C002CEE46 /* iInventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iInventory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		540BEAB918B79F2C002CEE46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		540BEABB18B79F2C002CEE46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		540BEABD18B79F2C002CEE46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		540BEAC118B79F2C002CEE46 /* iInventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iInventory-Info.plist"; sourceTree = "<group>"; };
+		540BEAC318B79F2C002CEE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		540BEAC518B79F2C002CEE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		540BEAC718B79F2C002CEE46 /* iInventory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iInventory-Prefix.pch"; sourceTree = "<group>"; };
+		540BEAC818B79F2C002CEE46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		540BEAC918B79F2C002CEE46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		540BEACC18B79F2C002CEE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		540BEACF18B79F2C002CEE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		540BEAD118B79F2C002CEE46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		540BEAD218B79F2C002CEE46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		540BEAD418B79F2C002CEE46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		540BEADA18B79F2C002CEE46 /* iInventoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iInventoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		540BEADB18B79F2C002CEE46 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		540BEAE318B79F2C002CEE46 /* iInventoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iInventoryTests-Info.plist"; sourceTree = "<group>"; };
+		540BEAE518B79F2C002CEE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		540BEAE718B79F2C002CEE46 /* iInventoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iInventoryTests.m; sourceTree = "<group>"; };
+		540BEAF118B79F74002CEE46 /* bottle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bottle.jpg; sourceTree = "<group>"; };
+		540BEAF218B79F74002CEE46 /* menu-background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-background.png"; sourceTree = "<group>"; };
+		540BEAF318B79F74002CEE46 /* menu-background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-background@2x.png"; sourceTree = "<group>"; };
+		540BEAF718B79F85002CEE46 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		540BEAF818B79F85002CEE46 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		540BEAF918B79F85002CEE46 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		540BEAFA18B79F85002CEE46 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		540BEAFB18B79F85002CEE46 /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		540BEAFC18B79F85002CEE46 /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		540BEAFD18B79F85002CEE46 /* InventoryNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryNavigationController.h; sourceTree = "<group>"; };
+		540BEAFE18B79F85002CEE46 /* InventoryNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InventoryNavigationController.m; sourceTree = "<group>"; };
+		540BEB0518B79F85002CEE46 /* Cellar1Table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cellar1Table.h; sourceTree = "<group>"; };
+		540BEB0618B79F85002CEE46 /* Cellar1Table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cellar1Table.m; sourceTree = "<group>"; };
+		540BEB0718B79F85002CEE46 /* MyCellarDetail1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellarDetail1.h; sourceTree = "<group>"; };
+		540BEB0818B79F85002CEE46 /* MyCellarDetail1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellarDetail1.m; sourceTree = "<group>"; };
+		540BEB0918B79F85002CEE46 /* MyCellarAdd1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellarAdd1.h; sourceTree = "<group>"; };
+		540BEB0A18B79F85002CEE46 /* MyCellarAdd1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellarAdd1.m; sourceTree = "<group>"; };
+		540BEB0B18B79F85002CEE46 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		540BEB0C18B79F85002CEE46 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		540BEB0D18B79F85002CEE46 /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
+		540BEB0E18B79F85002CEE46 /* Data1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data1.plist; sourceTree = "<group>"; };
+		540BEB1D18B79F9F002CEE46 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		540BEB1E18B79F9F002CEE46 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		540BEB1F18B79F9F002CEE46 /* REFrostedContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedContainerViewController.h; sourceTree = "<group>"; };
+		540BEB2018B79F9F002CEE46 /* REFrostedContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedContainerViewController.m; sourceTree = "<group>"; };
+		540BEB2118B79F9F002CEE46 /* REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = REFrostedViewController.h; sourceTree = "<group>"; };
+		540BEB2218B79F9F002CEE46 /* REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = REFrostedViewController.m; sourceTree = "<group>"; };
+		540BEB2318B79F9F002CEE46 /* UIImage+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrostedViewController.h"; sourceTree = "<group>"; };
+		540BEB2418B79F9F002CEE46 /* UIImage+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrostedViewController.m"; sourceTree = "<group>"; };
+		540BEB2518B79F9F002CEE46 /* UIView+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrostedViewController.h"; sourceTree = "<group>"; };
+		540BEB2618B79F9F002CEE46 /* UIView+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrostedViewController.m"; sourceTree = "<group>"; };
+		540BEB2718B79F9F002CEE46 /* UIViewController+REFrostedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+REFrostedViewController.h"; sourceTree = "<group>"; };
+		540BEB2818B79F9F002CEE46 /* UIViewController+REFrostedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+REFrostedViewController.m"; sourceTree = "<group>"; };
+		542B75E918B7A48E00B6FA25 /* MyCellarTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellarTable.h; sourceTree = "<group>"; };
+		542B75EA18B7A48E00B6FA25 /* MyCellarTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellarTable.m; sourceTree = "<group>"; };
+		542B75EB18B7A48E00B6FA25 /* MyCellarDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellarDetail.h; sourceTree = "<group>"; };
+		542B75EC18B7A48E00B6FA25 /* MyCellarDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellarDetail.m; sourceTree = "<group>"; };
+		542B75ED18B7A48E00B6FA25 /* MyCellarAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCellarAdd.h; sourceTree = "<group>"; };
+		542B75EE18B7A48E00B6FA25 /* MyCellarAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCellarAdd.m; sourceTree = "<group>"; };
+		542B75F218B7A63A00B6FA25 /* PrintingExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrintingExampleViewController.h; sourceTree = "<group>"; };
+		542B75F318B7A63A00B6FA25 /* PrintingExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrintingExampleViewController.m; sourceTree = "<group>"; };
+		542B75F518B7A64200B6FA25 /* sampleData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sampleData.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		540BEAB318B79F2C002CEE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540BEABC18B79F2C002CEE46 /* CoreGraphics.framework in Frameworks */,
+				540BEABE18B79F2C002CEE46 /* UIKit.framework in Frameworks */,
+				540BEABA18B79F2C002CEE46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540BEAD718B79F2C002CEE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540BEADC18B79F2C002CEE46 /* XCTest.framework in Frameworks */,
+				540BEADE18B79F2C002CEE46 /* UIKit.framework in Frameworks */,
+				540BEADD18B79F2C002CEE46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		540BEAAD18B79F2C002CEE46 = {
+			isa = PBXGroup;
+			children = (
+				540BEABF18B79F2C002CEE46 /* iInventory */,
+				540BEAE118B79F2C002CEE46 /* iInventoryTests */,
+				540BEAB818B79F2C002CEE46 /* Frameworks */,
+				540BEAB718B79F2C002CEE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		540BEAB718B79F2C002CEE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				540BEAB618B79F2C002CEE46 /* iInventory.app */,
+				540BEADA18B79F2C002CEE46 /* iInventoryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		540BEAB818B79F2C002CEE46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				540BEAB918B79F2C002CEE46 /* Foundation.framework */,
+				540BEABB18B79F2C002CEE46 /* CoreGraphics.framework */,
+				540BEABD18B79F2C002CEE46 /* UIKit.framework */,
+				540BEADB18B79F2C002CEE46 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		540BEABF18B79F2C002CEE46 /* iInventory */ = {
+			isa = PBXGroup;
+			children = (
+				540BEB1C18B79F93002CEE46 /* REFrostedViewController */,
+				540BEAC818B79F2C002CEE46 /* AppDelegate.h */,
+				540BEAC918B79F2C002CEE46 /* AppDelegate.m */,
+				540BEACB18B79F2C002CEE46 /* Main_iPhone.storyboard */,
+				540BEACE18B79F2C002CEE46 /* Main_iPad.storyboard */,
+				540BEAD118B79F2C002CEE46 /* ViewController.h */,
+				540BEAD218B79F2C002CEE46 /* ViewController.m */,
+				540BEAF718B79F85002CEE46 /* RootViewController.h */,
+				540BEAF818B79F85002CEE46 /* RootViewController.m */,
+				540BEAF918B79F85002CEE46 /* HomeViewController.h */,
+				540BEAFA18B79F85002CEE46 /* HomeViewController.m */,
+				540BEAFB18B79F85002CEE46 /* MenuViewController.h */,
+				540BEAFC18B79F85002CEE46 /* MenuViewController.m */,
+				540BEAFD18B79F85002CEE46 /* InventoryNavigationController.h */,
+				540BEAFE18B79F85002CEE46 /* InventoryNavigationController.m */,
+				542B75E918B7A48E00B6FA25 /* MyCellarTable.h */,
+				542B75EA18B7A48E00B6FA25 /* MyCellarTable.m */,
+				542B75EB18B7A48E00B6FA25 /* MyCellarDetail.h */,
+				542B75EC18B7A48E00B6FA25 /* MyCellarDetail.m */,
+				542B75ED18B7A48E00B6FA25 /* MyCellarAdd.h */,
+				542B75EE18B7A48E00B6FA25 /* MyCellarAdd.m */,
+				540BEB0518B79F85002CEE46 /* Cellar1Table.h */,
+				540BEB0618B79F85002CEE46 /* Cellar1Table.m */,
+				540BEB0718B79F85002CEE46 /* MyCellarDetail1.h */,
+				540BEB0818B79F85002CEE46 /* MyCellarDetail1.m */,
+				540BEB0918B79F85002CEE46 /* MyCellarAdd1.h */,
+				540BEB0A18B79F85002CEE46 /* MyCellarAdd1.m */,
+				540BEB0B18B79F85002CEE46 /* TPKeyboardAvoidingScrollView.h */,
+				540BEB0C18B79F85002CEE46 /* TPKeyboardAvoidingScrollView.m */,
+				542B75F218B7A63A00B6FA25 /* PrintingExampleViewController.h */,
+				542B75F318B7A63A00B6FA25 /* PrintingExampleViewController.m */,
+				540BEB0D18B79F85002CEE46 /* Data.plist */,
+				540BEB0E18B79F85002CEE46 /* Data1.plist */,
+				542B75F518B7A64200B6FA25 /* sampleData.plist */,
+				540BEAD418B79F2C002CEE46 /* Images.xcassets */,
+				540BEAC018B79F2C002CEE46 /* Supporting Files */,
+			);
+			path = iInventory;
+			sourceTree = "<group>";
+		};
+		540BEAC018B79F2C002CEE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				540BEAC118B79F2C002CEE46 /* iInventory-Info.plist */,
+				540BEAC218B79F2C002CEE46 /* InfoPlist.strings */,
+				540BEAC518B79F2C002CEE46 /* main.m */,
+				540BEAC718B79F2C002CEE46 /* iInventory-Prefix.pch */,
+				540BEAF118B79F74002CEE46 /* bottle.jpg */,
+				540BEAF218B79F74002CEE46 /* menu-background.png */,
+				540BEAF318B79F74002CEE46 /* menu-background@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		540BEAE118B79F2C002CEE46 /* iInventoryTests */ = {
+			isa = PBXGroup;
+			children = (
+				540BEAE718B79F2C002CEE46 /* iInventoryTests.m */,
+				540BEAE218B79F2C002CEE46 /* Supporting Files */,
+			);
+			path = iInventoryTests;
+			sourceTree = "<group>";
+		};
+		540BEAE218B79F2C002CEE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				540BEAE318B79F2C002CEE46 /* iInventoryTests-Info.plist */,
+				540BEAE418B79F2C002CEE46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		540BEB1C18B79F93002CEE46 /* REFrostedViewController */ = {
+			isa = PBXGroup;
+			children = (
+				540BEB1D18B79F9F002CEE46 /* RECommonFunctions.h */,
+				540BEB1E18B79F9F002CEE46 /* RECommonFunctions.m */,
+				540BEB1F18B79F9F002CEE46 /* REFrostedContainerViewController.h */,
+				540BEB2018B79F9F002CEE46 /* REFrostedContainerViewController.m */,
+				540BEB2118B79F9F002CEE46 /* REFrostedViewController.h */,
+				540BEB2218B79F9F002CEE46 /* REFrostedViewController.m */,
+				540BEB2318B79F9F002CEE46 /* UIImage+REFrostedViewController.h */,
+				540BEB2418B79F9F002CEE46 /* UIImage+REFrostedViewController.m */,
+				540BEB2518B79F9F002CEE46 /* UIView+REFrostedViewController.h */,
+				540BEB2618B79F9F002CEE46 /* UIView+REFrostedViewController.m */,
+				540BEB2718B79F9F002CEE46 /* UIViewController+REFrostedViewController.h */,
+				540BEB2818B79F9F002CEE46 /* UIViewController+REFrostedViewController.m */,
+			);
+			name = REFrostedViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		540BEAB518B79F2C002CEE46 /* iInventory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540BEAEB18B79F2C002CEE46 /* Build configuration list for PBXNativeTarget "iInventory" */;
+			buildPhases = (
+				540BEAB218B79F2C002CEE46 /* Sources */,
+				540BEAB318B79F2C002CEE46 /* Frameworks */,
+				540BEAB418B79F2C002CEE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iInventory;
+			productName = iInventory;
+			productReference = 540BEAB618B79F2C002CEE46 /* iInventory.app */;
+			productType = "com.apple.product-type.application";
+		};
+		540BEAD918B79F2C002CEE46 /* iInventoryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 540BEAEE18B79F2C002CEE46 /* Build configuration list for PBXNativeTarget "iInventoryTests" */;
+			buildPhases = (
+				540BEAD618B79F2C002CEE46 /* Sources */,
+				540BEAD718B79F2C002CEE46 /* Frameworks */,
+				540BEAD818B79F2C002CEE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				540BEAE018B79F2C002CEE46 /* PBXTargetDependency */,
+			);
+			name = iInventoryTests;
+			productName = iInventoryTests;
+			productReference = 540BEADA18B79F2C002CEE46 /* iInventoryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		540BEAAE18B79F2C002CEE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Adrian Phillips";
+				TargetAttributes = {
+					540BEAD918B79F2C002CEE46 = {
+						TestTargetID = 540BEAB518B79F2C002CEE46;
+					};
+				};
+			};
+			buildConfigurationList = 540BEAB118B79F2C002CEE46 /* Build configuration list for PBXProject "iInventory" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 540BEAAD18B79F2C002CEE46;
+			productRefGroup = 540BEAB718B79F2C002CEE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				540BEAB518B79F2C002CEE46 /* iInventory */,
+				540BEAD918B79F2C002CEE46 /* iInventoryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		540BEAB418B79F2C002CEE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542B75F618B7A64200B6FA25 /* sampleData.plist in Resources */,
+				540BEAF518B79F74002CEE46 /* menu-background.png in Resources */,
+				540BEAD018B79F2C002CEE46 /* Main_iPad.storyboard in Resources */,
+				540BEAD518B79F2C002CEE46 /* Images.xcassets in Resources */,
+				540BEAF618B79F74002CEE46 /* menu-background@2x.png in Resources */,
+				540BEACD18B79F2C002CEE46 /* Main_iPhone.storyboard in Resources */,
+				540BEAC418B79F2C002CEE46 /* InfoPlist.strings in Resources */,
+				540BEB1B18B79F85002CEE46 /* Data1.plist in Resources */,
+				540BEB1A18B79F85002CEE46 /* Data.plist in Resources */,
+				540BEAF418B79F74002CEE46 /* bottle.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540BEAD818B79F2C002CEE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540BEAE618B79F2C002CEE46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		540BEAB218B79F2C002CEE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540BEB2A18B79F9F002CEE46 /* REFrostedContainerViewController.m in Sources */,
+				540BEB2918B79F9F002CEE46 /* RECommonFunctions.m in Sources */,
+				540BEB1818B79F85002CEE46 /* MyCellarAdd1.m in Sources */,
+				540BEB1718B79F85002CEE46 /* MyCellarDetail1.m in Sources */,
+				540BEB2D18B79F9F002CEE46 /* UIView+REFrostedViewController.m in Sources */,
+				540BEAD318B79F2C002CEE46 /* ViewController.m in Sources */,
+				540BEB1118B79F85002CEE46 /* MenuViewController.m in Sources */,
+				540BEACA18B79F2C002CEE46 /* AppDelegate.m in Sources */,
+				540BEB2E18B79F9F002CEE46 /* UIViewController+REFrostedViewController.m in Sources */,
+				540BEB1918B79F85002CEE46 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				542B75F118B7A48E00B6FA25 /* MyCellarAdd.m in Sources */,
+				540BEB1618B79F85002CEE46 /* Cellar1Table.m in Sources */,
+				540BEB0F18B79F85002CEE46 /* RootViewController.m in Sources */,
+				540BEB2C18B79F9F002CEE46 /* UIImage+REFrostedViewController.m in Sources */,
+				540BEB1018B79F85002CEE46 /* HomeViewController.m in Sources */,
+				542B75F418B7A63A00B6FA25 /* PrintingExampleViewController.m in Sources */,
+				542B75F018B7A48E00B6FA25 /* MyCellarDetail.m in Sources */,
+				540BEB2B18B79F9F002CEE46 /* REFrostedViewController.m in Sources */,
+				540BEB1218B79F85002CEE46 /* InventoryNavigationController.m in Sources */,
+				540BEAC618B79F2C002CEE46 /* main.m in Sources */,
+				542B75EF18B7A48E00B6FA25 /* MyCellarTable.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		540BEAD618B79F2C002CEE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				540BEAE818B79F2C002CEE46 /* iInventoryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		540BEAE018B79F2C002CEE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 540BEAB518B79F2C002CEE46 /* iInventory */;
+			targetProxy = 540BEADF18B79F2C002CEE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		540BEAC218B79F2C002CEE46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540BEAC318B79F2C002CEE46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		540BEACB18B79F2C002CEE46 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540BEACC18B79F2C002CEE46 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		540BEACE18B79F2C002CEE46 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540BEACF18B79F2C002CEE46 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		540BEAE418B79F2C002CEE46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				540BEAE518B79F2C002CEE46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		540BEAE918B79F2C002CEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		540BEAEA18B79F2C002CEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		540BEAEC18B79F2C002CEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iInventory/iInventory-Prefix.pch";
+				INFOPLIST_FILE = "iInventory/iInventory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		540BEAED18B79F2C002CEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iInventory/iInventory-Prefix.pch";
+				INFOPLIST_FILE = "iInventory/iInventory-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		540BEAEF18B79F2C002CEE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iInventory.app/iInventory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iInventory/iInventory-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iInventoryTests/iInventoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		540BEAF018B79F2C002CEE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iInventory.app/iInventory";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iInventory/iInventory-Prefix.pch";
+				INFOPLIST_FILE = "iInventoryTests/iInventoryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		540BEAB118B79F2C002CEE46 /* Build configuration list for PBXProject "iInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540BEAE918B79F2C002CEE46 /* Debug */,
+				540BEAEA18B79F2C002CEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540BEAEB18B79F2C002CEE46 /* Build configuration list for PBXNativeTarget "iInventory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540BEAEC18B79F2C002CEE46 /* Debug */,
+				540BEAED18B79F2C002CEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		540BEAEE18B79F2C002CEE46 /* Build configuration list for PBXNativeTarget "iInventoryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				540BEAEF18B79F2C002CEE46 /* Debug */,
+				540BEAF018B79F2C002CEE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 540BEAAE18B79F2C002CEE46 /* Project object */;
+}
